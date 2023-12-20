@@ -1,10 +1,7 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.tsx'
-import './index.css'
+import "./index.css";
+import * as ReactDOMClient from "react-dom/client";
+import { AppWithUI } from "./Components/AppWithUI";
 
-ReactDOM.createRoot(document.getElementById('root')!).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-)
+const rootElement = document.getElementById("root") as HTMLElement;
+const root = ReactDOMClient.createRoot(rootElement);
+root.render(<AppWithUI />);
