@@ -14,24 +14,22 @@ export function Home() {
       initial="hidden"
       animate="visible"
       exit={{ opacity: 0, transition: { duration: 1 } }}
-      variants={{ visible: { transition: { staggerChildren: 0.3 } } }}
+      variants={{ visible: { transition: { staggerChildren: 1.0 } } }}
     >
       <motion.h1
         variants={{
           hidden: { opacity: 0, y: -50 },
-          visible,
+          visible: { opacity: 1, y: 0, transition: { duration: 1 } },
         }}
       >
-        Let's go!
+        Here is my beautiful creation!
       </motion.h1>
-      <ul>
-        <motion.li variants={itemVariants}>
-          <Link to="/accordion">Accordion</Link>
-        </motion.li>
-        <motion.li variants={itemVariants}>
-          <Link to="/blog">Blog demo</Link>
-        </motion.li>
-      </ul>
+      <motion.li variants={itemVariants}>
+        <Link to="/accordion">Accordion</Link>
+      </motion.li>
+      <motion.li variants={itemVariants}>
+        <Link to="/blog">Blog demo</Link>
+      </motion.li>
     </motion.article>
   );
 }

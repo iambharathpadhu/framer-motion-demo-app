@@ -4,6 +4,7 @@ import React from "react";
 import { AnimatePresence } from "framer-motion";
 import { Lander } from "./Components/Lander";
 import { Blog } from "./Components/Blog";
+import { Accordion } from "./Components/Accordion";
 
 export default function App() {
   const element = useRoutes([
@@ -13,7 +14,7 @@ export default function App() {
     },
     {
       path: "/accordion",
-      element: <p>Hello World</p>,
+      element: <Accordion />,
     },
     {
       path: "/blog",

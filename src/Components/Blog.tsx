@@ -12,7 +12,7 @@ export function Blog() {
   return (
     <>
       <button onClick={() => setShowProgress(!showProgress)}>
-        Toggle Progress
+        Add progress bar!
       </button>
       {showProgress && (
         <motion.div
@@ -22,7 +22,7 @@ export function Blog() {
             width: "100vw",
             height: "20px",
             background: "red",
-            bottom: 0,
+            top: 0,
             left: 0,
             position: "fixed",
           }}
@@ -31,7 +31,7 @@ export function Blog() {
       <motion.article
         initial="hidden"
         animate="visible"
-        exit={{ opacity: 0, transition: { duration: 2.0, delay: 1.0 } }}
+        exit={{ opacity: 0, transition: { duration: 2.0, delay: 0.5 } }}
         variants={{
           hidden: { opacity: 0, y: -20 },
           visible: { opacity: 1, y: 0, transition: { duration: 0.6 } },
@@ -180,6 +180,438 @@ export function Blog() {
           16-year-old would become an even better player than himself.[37]
           Ronaldinho soon befriended Messi, whom he called "little brother",
           which greatly eased his transition into the first team.[38][39]
+        </p>
+        <p>
+          Already frequently compared to compatriot Diego Maradona, Messi proved
+          their similarity when he nearly replicated Maradona's two most famous
+          goals in the span of seven weeks.[68] During a Copa del Rey semi-final
+          against Getafe on 18 April, he scored a goal remarkably similar to
+          Maradona's second goal in the quarter-finals of the 1986 FIFA World
+          Cup, known as the Goal of the Century. Messi collected the ball on the
+          right side near the halfway line, ran 60 metres (66 yd), and beat five
+          defenders before scoring with an angled finish, just as Maradona had
+          done.[19][69] A league match against Espanyol on 9 June saw him score
+          by launching himself at the ball and guiding it past the goalkeeper
+          with his hand in similar fashion to Maradona's Hand of God goal in the
+          same World Cup match.[70] As Messi continued his individual rise,
+          Barcelona faltered; the team failed to reach the Copa del Rey final
+          after Messi was rested during the second leg against Getafe and lost
+          the league to Real Madrid on head-to-head results.[71][72] After
+          Ronaldinho lost form, Messi became Barça's new star player at only 20
+          years old, receiving the nickname "Messiah" from the Spanish
+          media.[19][73][74] His efforts in 2007 also earned him award
+          recognition; journalists voted him the third-best player of the year
+          for the 2007 Ballon d'Or, behind Kaká and runner-up Cristiano Ronaldo,
+          while international managers and national team captains voted him
+          second for the FIFA World Player of the Year award, again behind
+          Kaká.[75][76] Although he managed to score 16 goals during the 2007–08
+          campaign,[77] the second half of his season was again marred by
+          injuries after he suffered a torn hamstring on 15 December.[78] He
+          returned to score twice in their away victory against Celtic in the
+          last 16 round of the Champions League, becoming the competition's top
+          scorer at that point with six goals,[79] but reinjured himself during
+          the return leg on 4 March 2008. Rijkaard had fielded him despite
+          warning from the medical staff, leading captain Carles Puyol to
+          criticise the Spanish media for pressuring Messi to play every
+          match.[78] Barcelona finished the season without trophies, eliminated
+          in the Champions League semi-finals by the eventual champions,
+          Manchester United, and placed third in the league.[80]
+        </p>
+        <p>
+          Already frequently compared to compatriot Diego Maradona, Messi proved
+          their similarity when he nearly replicated Maradona's two most famous
+          goals in the span of seven weeks.[68] During a Copa del Rey semi-final
+          against Getafe on 18 April, he scored a goal remarkably similar to
+          Maradona's second goal in the quarter-finals of the 1986 FIFA World
+          Cup, known as the Goal of the Century. Messi collected the ball on the
+          right side near the halfway line, ran 60 metres (66 yd), and beat five
+          defenders before scoring with an angled finish, just as Maradona had
+          done.[19][69] A league match against Espanyol on 9 June saw him score
+          by launching himself at the ball and guiding it past the goalkeeper
+          with his hand in similar fashion to Maradona's Hand of God goal in the
+          same World Cup match.[70] As Messi continued his individual rise,
+          Barcelona faltered; the team failed to reach the Copa del Rey final
+          after Messi was rested during the second leg against Getafe and lost
+          the league to Real Madrid on head-to-head results.[71][72] After
+          Ronaldinho lost form, Messi became Barça's new star player at only 20
+          years old, receiving the nickname "Messiah" from the Spanish
+          media.[19][73][74] His efforts in 2007 also earned him award
+          recognition; journalists voted him the third-best player of the year
+          for the 2007 Ballon d'Or, behind Kaká and runner-up Cristiano Ronaldo,
+          while international managers and national team captains voted him
+          second for the FIFA World Player of the Year award, again behind
+          Kaká.[75][76] Although he managed to score 16 goals during the 2007–08
+          campaign,[77] the second half of his season was again marred by
+          injuries after he suffered a torn hamstring on 15 December.[78] He
+          returned to score twice in their away victory against Celtic in the
+          last 16 round of the Champions League, becoming the competition's top
+          scorer at that point with six goals,[79] but reinjured himself during
+          the return leg on 4 March 2008. Rijkaard had fielded him despite
+          warning from the medical staff, leading captain Carles Puyol to
+          criticise the Spanish media for pressuring Messi to play every
+          match.[78] Barcelona finished the season without trophies, eliminated
+          in the Champions League semi-finals by the eventual champions,
+          Manchester United, and placed third in the league.[80]
+        </p>
+        <p>
+          Already frequently compared to compatriot Diego Maradona, Messi proved
+          their similarity when he nearly replicated Maradona's two most famous
+          goals in the span of seven weeks.[68] During a Copa del Rey semi-final
+          against Getafe on 18 April, he scored a goal remarkably similar to
+          Maradona's second goal in the quarter-finals of the 1986 FIFA World
+          Cup, known as the Goal of the Century. Messi collected the ball on the
+          right side near the halfway line, ran 60 metres (66 yd), and beat five
+          defenders before scoring with an angled finish, just as Maradona had
+          done.[19][69] A league match against Espanyol on 9 June saw him score
+          by launching himself at the ball and guiding it past the goalkeeper
+          with his hand in similar fashion to Maradona's Hand of God goal in the
+          same World Cup match.[70] As Messi continued his individual rise,
+          Barcelona faltered; the team failed to reach the Copa del Rey final
+          after Messi was rested during the second leg against Getafe and lost
+          the league to Real Madrid on head-to-head results.[71][72] After
+          Ronaldinho lost form, Messi became Barça's new star player at only 20
+          years old, receiving the nickname "Messiah" from the Spanish
+          media.[19][73][74] His efforts in 2007 also earned him award
+          recognition; journalists voted him the third-best player of the year
+          for the 2007 Ballon d'Or, behind Kaká and runner-up Cristiano Ronaldo,
+          while international managers and national team captains voted him
+          second for the FIFA World Player of the Year award, again behind
+          Kaká.[75][76] Although he managed to score 16 goals during the 2007–08
+          campaign,[77] the second half of his season was again marred by
+          injuries after he suffered a torn hamstring on 15 December.[78] He
+          returned to score twice in their away victory against Celtic in the
+          last 16 round of the Champions League, becoming the competition's top
+          scorer at that point with six goals,[79] but reinjured himself during
+          the return leg on 4 March 2008. Rijkaard had fielded him despite
+          warning from the medical staff, leading captain Carles Puyol to
+          criticise the Spanish media for pressuring Messi to play every
+          match.[78] Barcelona finished the season without trophies, eliminated
+          in the Champions League semi-finals by the eventual champions,
+          Manchester United, and placed third in the league.[80]
+        </p>
+        <p>
+          Already frequently compared to compatriot Diego Maradona, Messi proved
+          their similarity when he nearly replicated Maradona's two most famous
+          goals in the span of seven weeks.[68] During a Copa del Rey semi-final
+          against Getafe on 18 April, he scored a goal remarkably similar to
+          Maradona's second goal in the quarter-finals of the 1986 FIFA World
+          Cup, known as the Goal of the Century. Messi collected the ball on the
+          right side near the halfway line, ran 60 metres (66 yd), and beat five
+          defenders before scoring with an angled finish, just as Maradona had
+          done.[19][69] A league match against Espanyol on 9 June saw him score
+          by launching himself at the ball and guiding it past the goalkeeper
+          with his hand in similar fashion to Maradona's Hand of God goal in the
+          same World Cup match.[70] As Messi continued his individual rise,
+          Barcelona faltered; the team failed to reach the Copa del Rey final
+          after Messi was rested during the second leg against Getafe and lost
+          the league to Real Madrid on head-to-head results.[71][72] After
+          Ronaldinho lost form, Messi became Barça's new star player at only 20
+          years old, receiving the nickname "Messiah" from the Spanish
+          media.[19][73][74] His efforts in 2007 also earned him award
+          recognition; journalists voted him the third-best player of the year
+          for the 2007 Ballon d'Or, behind Kaká and runner-up Cristiano Ronaldo,
+          while international managers and national team captains voted him
+          second for the FIFA World Player of the Year award, again behind
+          Kaká.[75][76] Although he managed to score 16 goals during the 2007–08
+          campaign,[77] the second half of his season was again marred by
+          injuries after he suffered a torn hamstring on 15 December.[78] He
+          returned to score twice in their away victory against Celtic in the
+          last 16 round of the Champions League, becoming the competition's top
+          scorer at that point with six goals,[79] but reinjured himself during
+          the return leg on 4 March 2008. Rijkaard had fielded him despite
+          warning from the medical staff, leading captain Carles Puyol to
+          criticise the Spanish media for pressuring Messi to play every
+          match.[78] Barcelona finished the season without trophies, eliminated
+          in the Champions League semi-finals by the eventual champions,
+          Manchester United, and placed third in the league.[80]
+        </p>
+        <p>
+          Already frequently compared to compatriot Diego Maradona, Messi proved
+          their similarity when he nearly replicated Maradona's two most famous
+          goals in the span of seven weeks.[68] During a Copa del Rey semi-final
+          against Getafe on 18 April, he scored a goal remarkably similar to
+          Maradona's second goal in the quarter-finals of the 1986 FIFA World
+          Cup, known as the Goal of the Century. Messi collected the ball on the
+          right side near the halfway line, ran 60 metres (66 yd), and beat five
+          defenders before scoring with an angled finish, just as Maradona had
+          done.[19][69] A league match against Espanyol on 9 June saw him score
+          by launching himself at the ball and guiding it past the goalkeeper
+          with his hand in similar fashion to Maradona's Hand of God goal in the
+          same World Cup match.[70] As Messi continued his individual rise,
+          Barcelona faltered; the team failed to reach the Copa del Rey final
+          after Messi was rested during the second leg against Getafe and lost
+          the league to Real Madrid on head-to-head results.[71][72] After
+          Ronaldinho lost form, Messi became Barça's new star player at only 20
+          years old, receiving the nickname "Messiah" from the Spanish
+          media.[19][73][74] His efforts in 2007 also earned him award
+          recognition; journalists voted him the third-best player of the year
+          for the 2007 Ballon d'Or, behind Kaká and runner-up Cristiano Ronaldo,
+          while international managers and national team captains voted him
+          second for the FIFA World Player of the Year award, again behind
+          Kaká.[75][76] Although he managed to score 16 goals during the 2007–08
+          campaign,[77] the second half of his season was again marred by
+          injuries after he suffered a torn hamstring on 15 December.[78] He
+          returned to score twice in their away victory against Celtic in the
+          last 16 round of the Champions League, becoming the competition's top
+          scorer at that point with six goals,[79] but reinjured himself during
+          the return leg on 4 March 2008. Rijkaard had fielded him despite
+          warning from the medical staff, leading captain Carles Puyol to
+          criticise the Spanish media for pressuring Messi to play every
+          match.[78] Barcelona finished the season without trophies, eliminated
+          in the Champions League semi-finals by the eventual champions,
+          Manchester United, and placed third in the league.[80]
+        </p>
+        <p>
+          Already frequently compared to compatriot Diego Maradona, Messi proved
+          their similarity when he nearly replicated Maradona's two most famous
+          goals in the span of seven weeks.[68] During a Copa del Rey semi-final
+          against Getafe on 18 April, he scored a goal remarkably similar to
+          Maradona's second goal in the quarter-finals of the 1986 FIFA World
+          Cup, known as the Goal of the Century. Messi collected the ball on the
+          right side near the halfway line, ran 60 metres (66 yd), and beat five
+          defenders before scoring with an angled finish, just as Maradona had
+          done.[19][69] A league match against Espanyol on 9 June saw him score
+          by launching himself at the ball and guiding it past the goalkeeper
+          with his hand in similar fashion to Maradona's Hand of God goal in the
+          same World Cup match.[70] As Messi continued his individual rise,
+          Barcelona faltered; the team failed to reach the Copa del Rey final
+          after Messi was rested during the second leg against Getafe and lost
+          the league to Real Madrid on head-to-head results.[71][72] After
+          Ronaldinho lost form, Messi became Barça's new star player at only 20
+          years old, receiving the nickname "Messiah" from the Spanish
+          media.[19][73][74] His efforts in 2007 also earned him award
+          recognition; journalists voted him the third-best player of the year
+          for the 2007 Ballon d'Or, behind Kaká and runner-up Cristiano Ronaldo,
+          while international managers and national team captains voted him
+          second for the FIFA World Player of the Year award, again behind
+          Kaká.[75][76] Although he managed to score 16 goals during the 2007–08
+          campaign,[77] the second half of his season was again marred by
+          injuries after he suffered a torn hamstring on 15 December.[78] He
+          returned to score twice in their away victory against Celtic in the
+          last 16 round of the Champions League, becoming the competition's top
+          scorer at that point with six goals,[79] but reinjured himself during
+          the return leg on 4 March 2008. Rijkaard had fielded him despite
+          warning from the medical staff, leading captain Carles Puyol to
+          criticise the Spanish media for pressuring Messi to play every
+          match.[78] Barcelona finished the season without trophies, eliminated
+          in the Champions League semi-finals by the eventual champions,
+          Manchester United, and placed third in the league.[80]
+        </p>
+        <p>
+          Already frequently compared to compatriot Diego Maradona, Messi proved
+          their similarity when he nearly replicated Maradona's two most famous
+          goals in the span of seven weeks.[68] During a Copa del Rey semi-final
+          against Getafe on 18 April, he scored a goal remarkably similar to
+          Maradona's second goal in the quarter-finals of the 1986 FIFA World
+          Cup, known as the Goal of the Century. Messi collected the ball on the
+          right side near the halfway line, ran 60 metres (66 yd), and beat five
+          defenders before scoring with an angled finish, just as Maradona had
+          done.[19][69] A league match against Espanyol on 9 June saw him score
+          by launching himself at the ball and guiding it past the goalkeeper
+          with his hand in similar fashion to Maradona's Hand of God goal in the
+          same World Cup match.[70] As Messi continued his individual rise,
+          Barcelona faltered; the team failed to reach the Copa del Rey final
+          after Messi was rested during the second leg against Getafe and lost
+          the league to Real Madrid on head-to-head results.[71][72] After
+          Ronaldinho lost form, Messi became Barça's new star player at only 20
+          years old, receiving the nickname "Messiah" from the Spanish
+          media.[19][73][74] His efforts in 2007 also earned him award
+          recognition; journalists voted him the third-best player of the year
+          for the 2007 Ballon d'Or, behind Kaká and runner-up Cristiano Ronaldo,
+          while international managers and national team captains voted him
+          second for the FIFA World Player of the Year award, again behind
+          Kaká.[75][76] Although he managed to score 16 goals during the 2007–08
+          campaign,[77] the second half of his season was again marred by
+          injuries after he suffered a torn hamstring on 15 December.[78] He
+          returned to score twice in their away victory against Celtic in the
+          last 16 round of the Champions League, becoming the competition's top
+          scorer at that point with six goals,[79] but reinjured himself during
+          the return leg on 4 March 2008. Rijkaard had fielded him despite
+          warning from the medical staff, leading captain Carles Puyol to
+          criticise the Spanish media for pressuring Messi to play every
+          match.[78] Barcelona finished the season without trophies, eliminated
+          in the Champions League semi-finals by the eventual champions,
+          Manchester United, and placed third in the league.[80]
+        </p>
+        <p>
+          Already frequently compared to compatriot Diego Maradona, Messi proved
+          their similarity when he nearly replicated Maradona's two most famous
+          goals in the span of seven weeks.[68] During a Copa del Rey semi-final
+          against Getafe on 18 April, he scored a goal remarkably similar to
+          Maradona's second goal in the quarter-finals of the 1986 FIFA World
+          Cup, known as the Goal of the Century. Messi collected the ball on the
+          right side near the halfway line, ran 60 metres (66 yd), and beat five
+          defenders before scoring with an angled finish, just as Maradona had
+          done.[19][69] A league match against Espanyol on 9 June saw him score
+          by launching himself at the ball and guiding it past the goalkeeper
+          with his hand in similar fashion to Maradona's Hand of God goal in the
+          same World Cup match.[70] As Messi continued his individual rise,
+          Barcelona faltered; the team failed to reach the Copa del Rey final
+          after Messi was rested during the second leg against Getafe and lost
+          the league to Real Madrid on head-to-head results.[71][72] After
+          Ronaldinho lost form, Messi became Barça's new star player at only 20
+          years old, receiving the nickname "Messiah" from the Spanish
+          media.[19][73][74] His efforts in 2007 also earned him award
+          recognition; journalists voted him the third-best player of the year
+          for the 2007 Ballon d'Or, behind Kaká and runner-up Cristiano Ronaldo,
+          while international managers and national team captains voted him
+          second for the FIFA World Player of the Year award, again behind
+          Kaká.[75][76] Although he managed to score 16 goals during the 2007–08
+          campaign,[77] the second half of his season was again marred by
+          injuries after he suffered a torn hamstring on 15 December.[78] He
+          returned to score twice in their away victory against Celtic in the
+          last 16 round of the Champions League, becoming the competition's top
+          scorer at that point with six goals,[79] but reinjured himself during
+          the return leg on 4 March 2008. Rijkaard had fielded him despite
+          warning from the medical staff, leading captain Carles Puyol to
+          criticise the Spanish media for pressuring Messi to play every
+          match.[78] Barcelona finished the season without trophies, eliminated
+          in the Champions League semi-finals by the eventual champions,
+          Manchester United, and placed third in the league.[80]
+        </p>
+        <p>
+          Already frequently compared to compatriot Diego Maradona, Messi proved
+          their similarity when he nearly replicated Maradona's two most famous
+          goals in the span of seven weeks.[68] During a Copa del Rey semi-final
+          against Getafe on 18 April, he scored a goal remarkably similar to
+          Maradona's second goal in the quarter-finals of the 1986 FIFA World
+          Cup, known as the Goal of the Century. Messi collected the ball on the
+          right side near the halfway line, ran 60 metres (66 yd), and beat five
+          defenders before scoring with an angled finish, just as Maradona had
+          done.[19][69] A league match against Espanyol on 9 June saw him score
+          by launching himself at the ball and guiding it past the goalkeeper
+          with his hand in similar fashion to Maradona's Hand of God goal in the
+          same World Cup match.[70] As Messi continued his individual rise,
+          Barcelona faltered; the team failed to reach the Copa del Rey final
+          after Messi was rested during the second leg against Getafe and lost
+          the league to Real Madrid on head-to-head results.[71][72] After
+          Ronaldinho lost form, Messi became Barça's new star player at only 20
+          years old, receiving the nickname "Messiah" from the Spanish
+          media.[19][73][74] His efforts in 2007 also earned him award
+          recognition; journalists voted him the third-best player of the year
+          for the 2007 Ballon d'Or, behind Kaká and runner-up Cristiano Ronaldo,
+          while international managers and national team captains voted him
+          second for the FIFA World Player of the Year award, again behind
+          Kaká.[75][76] Although he managed to score 16 goals during the 2007–08
+          campaign,[77] the second half of his season was again marred by
+          injuries after he suffered a torn hamstring on 15 December.[78] He
+          returned to score twice in their away victory against Celtic in the
+          last 16 round of the Champions League, becoming the competition's top
+          scorer at that point with six goals,[79] but reinjured himself during
+          the return leg on 4 March 2008. Rijkaard had fielded him despite
+          warning from the medical staff, leading captain Carles Puyol to
+          criticise the Spanish media for pressuring Messi to play every
+          match.[78] Barcelona finished the season without trophies, eliminated
+          in the Champions League semi-finals by the eventual champions,
+          Manchester United, and placed third in the league.[80]
+        </p>
+        <p>
+          Already frequently compared to compatriot Diego Maradona, Messi proved
+          their similarity when he nearly replicated Maradona's two most famous
+          goals in the span of seven weeks.[68] During a Copa del Rey semi-final
+          against Getafe on 18 April, he scored a goal remarkably similar to
+          Maradona's second goal in the quarter-finals of the 1986 FIFA World
+          Cup, known as the Goal of the Century. Messi collected the ball on the
+          right side near the halfway line, ran 60 metres (66 yd), and beat five
+          defenders before scoring with an angled finish, just as Maradona had
+          done.[19][69] A league match against Espanyol on 9 June saw him score
+          by launching himself at the ball and guiding it past the goalkeeper
+          with his hand in similar fashion to Maradona's Hand of God goal in the
+          same World Cup match.[70] As Messi continued his individual rise,
+          Barcelona faltered; the team failed to reach the Copa del Rey final
+          after Messi was rested during the second leg against Getafe and lost
+          the league to Real Madrid on head-to-head results.[71][72] After
+          Ronaldinho lost form, Messi became Barça's new star player at only 20
+          years old, receiving the nickname "Messiah" from the Spanish
+          media.[19][73][74] His efforts in 2007 also earned him award
+          recognition; journalists voted him the third-best player of the year
+          for the 2007 Ballon d'Or, behind Kaká and runner-up Cristiano Ronaldo,
+          while international managers and national team captains voted him
+          second for the FIFA World Player of the Year award, again behind
+          Kaká.[75][76] Although he managed to score 16 goals during the 2007–08
+          campaign,[77] the second half of his season was again marred by
+          injuries after he suffered a torn hamstring on 15 December.[78] He
+          returned to score twice in their away victory against Celtic in the
+          last 16 round of the Champions League, becoming the competition's top
+          scorer at that point with six goals,[79] but reinjured himself during
+          the return leg on 4 March 2008. Rijkaard had fielded him despite
+          warning from the medical staff, leading captain Carles Puyol to
+          criticise the Spanish media for pressuring Messi to play every
+          match.[78] Barcelona finished the season without trophies, eliminated
+          in the Champions League semi-finals by the eventual champions,
+          Manchester United, and placed third in the league.[80]
+        </p>
+        <p>
+          Already frequently compared to compatriot Diego Maradona, Messi proved
+          their similarity when he nearly replicated Maradona's two most famous
+          goals in the span of seven weeks.[68] During a Copa del Rey semi-final
+          against Getafe on 18 April, he scored a goal remarkably similar to
+          Maradona's second goal in the quarter-finals of the 1986 FIFA World
+          Cup, known as the Goal of the Century. Messi collected the ball on the
+          right side near the halfway line, ran 60 metres (66 yd), and beat five
+          defenders before scoring with an angled finish, just as Maradona had
+          done.[19][69] A league match against Espanyol on 9 June saw him score
+          by launching himself at the ball and guiding it past the goalkeeper
+          with his hand in similar fashion to Maradona's Hand of God goal in the
+          same World Cup match.[70] As Messi continued his individual rise,
+          Barcelona faltered; the team failed to reach the Copa del Rey final
+          after Messi was rested during the second leg against Getafe and lost
+          the league to Real Madrid on head-to-head results.[71][72] After
+          Ronaldinho lost form, Messi became Barça's new star player at only 20
+          years old, receiving the nickname "Messiah" from the Spanish
+          media.[19][73][74] His efforts in 2007 also earned him award
+          recognition; journalists voted him the third-best player of the year
+          for the 2007 Ballon d'Or, behind Kaká and runner-up Cristiano Ronaldo,
+          while international managers and national team captains voted him
+          second for the FIFA World Player of the Year award, again behind
+          Kaká.[75][76] Although he managed to score 16 goals during the 2007–08
+          campaign,[77] the second half of his season was again marred by
+          injuries after he suffered a torn hamstring on 15 December.[78] He
+          returned to score twice in their away victory against Celtic in the
+          last 16 round of the Champions League, becoming the competition's top
+          scorer at that point with six goals,[79] but reinjured himself during
+          the return leg on 4 March 2008. Rijkaard had fielded him despite
+          warning from the medical staff, leading captain Carles Puyol to
+          criticise the Spanish media for pressuring Messi to play every
+          match.[78] Barcelona finished the season without trophies, eliminated
+          in the Champions League semi-finals by the eventual champions,
+          Manchester United, and placed third in the league.[80]
+        </p>
+        <p>
+          Already frequently compared to compatriot Diego Maradona, Messi proved
+          their similarity when he nearly replicated Maradona's two most famous
+          goals in the span of seven weeks.[68] During a Copa del Rey semi-final
+          against Getafe on 18 April, he scored a goal remarkably similar to
+          Maradona's second goal in the quarter-finals of the 1986 FIFA World
+          Cup, known as the Goal of the Century. Messi collected the ball on the
+          right side near the halfway line, ran 60 metres (66 yd), and beat five
+          defenders before scoring with an angled finish, just as Maradona had
+          done.[19][69] A league match against Espanyol on 9 June saw him score
+          by launching himself at the ball and guiding it past the goalkeeper
+          with his hand in similar fashion to Maradona's Hand of God goal in the
+          same World Cup match.[70] As Messi continued his individual rise,
+          Barcelona faltered; the team failed to reach the Copa del Rey final
+          after Messi was rested during the second leg against Getafe and lost
+          the league to Real Madrid on head-to-head results.[71][72] After
+          Ronaldinho lost form, Messi became Barça's new star player at only 20
+          years old, receiving the nickname "Messiah" from the Spanish
+          media.[19][73][74] His efforts in 2007 also earned him award
+          recognition; journalists voted him the third-best player of the year
+          for the 2007 Ballon d'Or, behind Kaká and runner-up Cristiano Ronaldo,
+          while international managers and national team captains voted him
+          second for the FIFA World Player of the Year award, again behind
+          Kaká.[75][76] Although he managed to score 16 goals during the 2007–08
+          campaign,[77] the second half of his season was again marred by
+          injuries after he suffered a torn hamstring on 15 December.[78] He
+          returned to score twice in their away victory against Celtic in the
+          last 16 round of the Champions League, becoming the competition's top
+          scorer at that point with six goals,[79] but reinjured himself during
+          the return leg on 4 March 2008. Rijkaard had fielded him despite
+          warning from the medical staff, leading captain Carles Puyol to
+          criticise the Spanish media for pressuring Messi to play every
+          match.[78] Barcelona finished the season without trophies, eliminated
+          in the Champions League semi-finals by the eventual champions,
+          Manchester United, and placed third in the league.[80]
         </p>
       </motion.article>
     </>

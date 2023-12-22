@@ -7,7 +7,7 @@ export function Lander() {
   return (
     <div>
       <button onClick={() => setAnimated(!isAnimated)}>
-        Animate my home page
+        Apply some magic to my homepage!!
       </button>
       {isAnimated ? <Home /> : <HomeWithoutAnimation />}
     </div>
