@@ -9,7 +9,7 @@ export function HomeWithoutAnimation() {
           <Link to="/accordion">Accordion</Link>
         </li>
         <li>
-          <Link to="/london">White lines of Canary Wharf</Link>
+          <Link to="/blog">Blog demo</Link>
         </li>
       </ul>
     </article>

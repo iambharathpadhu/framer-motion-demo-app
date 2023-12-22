@@ -29,7 +29,7 @@ export function Home() {
           <Link to="/accordion">Accordion</Link>
         </motion.li>
         <motion.li variants={itemVariants}>
-          <Link to="/london">White lines of Canary Wharf</Link>
+          <Link to="/blog">Blog demo</Link>
         </motion.li>
       </ul>
     </motion.article>
