@@ -23,9 +23,26 @@ function AccordionComponent({
           backgroundColor: "#0055FF",
           borderBottom: "1px solid black",
           margin: "10px auto",
+          borderRadius: "8px",
         }}
       />
-      {isOpen && <section key={`noAnimation${i}`}>Content goes here</section>}
+      {isOpen && (
+        <section
+          key={`noAnimation${i}`}
+          style={{
+            width: "300px",
+            padding: "20px",
+            cursor: "pointer",
+            height: "auto",
+            backgroundColor: "#d9d9d9",
+            borderRadius: "8px",
+          }}
+        >
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s
+        </section>
+      )}
     </>
   );
 }

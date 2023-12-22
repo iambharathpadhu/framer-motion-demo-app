@@ -26,6 +26,7 @@ function AccordionComponent({
           backgroundColor: "lightblue",
           borderBottom: "1px solid black",
           margin: "10px auto",
+          borderRadius: "8px",
         }}
       />
       <AnimatePresence initial={false}>
@@ -40,8 +41,18 @@ function AccordionComponent({
               collapsed: { opacity: 0, height: 0 },
             }}
             transition={{ duration: 0.8, ease: [0.04, 0.62, 0.23, 0.98] }}
+            style={{
+              width: "300px",
+              padding: "20px",
+              cursor: "pointer",
+              height: "50px",
+              backgroundColor: "#d9d9d9",
+              borderRadius: "8px",
+            }}
           >
-            Content Goes here
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s
           </motion.section>
         )}
       </AnimatePresence>
