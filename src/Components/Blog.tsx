@@ -1,4 +1,5 @@
 import { motion, useScroll, useSpring } from "framer-motion";
+import { useState } from "react";
 
 export function Blog() {
   const { scrollYProgress } = useScroll();
@@ -7,20 +8,26 @@ export function Blog() {
     damping: 20,
     restDelta: 0.001,
   });
+  const [showProgress, setShowProgress] = useState(false);
   return (
     <>
-      <motion.div
-        className="progress-bar"
-        style={{
-          scaleX,
-          width: "100vw",
-          height: "20px",
-          background: "red",
-          bottom: 0,
-          left: 0,
-          position: "fixed",
-        }}
-      />
+      <button onClick={() => setShowProgress(!showProgress)}>
+        Toggle Progress
+      </button>
+      {showProgress && (
+        <motion.div
+          className="progress-bar"
+          style={{
+            scaleX,
+            width: "100vw",
+            height: "20px",
+            background: "red",
+            bottom: 0,
+            left: 0,
+            position: "fixed",
+          }}
+        />
+      )}
       <motion.article
         initial="hidden"
         animate="visible"

@@ -1,10 +1,10 @@
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 
-const visible = { opacity: 1, y: 0, transition: { duration: 0.5 } };
+const visible = { opacity: 1, y: 0, x: 0, transition: { duration: 0.5 } };
 
 const itemVariants = {
-  hidden: { opacity: 0, y: 10 },
+  hidden: { opacity: 0, y: 10, x: -75 },
   visible,
 };
 
