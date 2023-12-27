@@ -8,14 +8,16 @@ export function Footer() {
         width: "100vw",
         position: "fixed",
         left: 0,
-        backgroundColor: "red",
+        backgroundColor: "#611bb8",
         textAlign: "center",
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
       }}
     >
-      <p>Built with love by Barath!!!</p>
+      <p style={{ color: "#ffffff", fontSize: "18px" }}>
+        Built with love by Barath!!!
+      </p>
     </footer>
   );
 }
