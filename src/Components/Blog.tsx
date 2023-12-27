@@ -21,7 +21,7 @@ export function Blog() {
             scaleX,
             width: "100vw",
             height: "20px",
-            background: "red",
+            background: "#611bb8",
             top: 0,
             left: 0,
             position: "fixed",
