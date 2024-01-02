@@ -41,7 +41,14 @@ export function Blog() {
         <img
           src="src/assets/messi.jpeg"
           alt="messi"
-          style={{ width: "80vw" }}
+          style={{
+            width: "auto",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            alignContent: "center",
+            margin: "0 auto",
+          }}
         />
         <p>
           Lionel Andrés Messi[note 1] (Spanish pronunciation: [ljoˈnel anˈdɾes
