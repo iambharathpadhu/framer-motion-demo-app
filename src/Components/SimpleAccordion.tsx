@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { ChevronDownIcon } from "@heroicons/react/24/outline";
 
 function AccordionComponent({
   i,
@@ -17,15 +18,24 @@ function AccordionComponent({
         onClick={() => setExpanded(isOpen ? false : i)}
         style={{
           width: "300px",
-          padding: "20px",
+          padding: "0 20px",
           cursor: "pointer",
           height: "50px",
           backgroundColor: "#0055FF",
           borderBottom: "1px solid black",
           margin: "10px auto",
           borderRadius: "8px",
+          display: "flex",
+          justifyContent: "space-between",
+          alignContent: "center",
+          alignItems: "center",
         }}
-      />
+      >
+        <p style={{ color: "white" }}>{`Item ${i + 1}`}</p>
+        <ChevronDownIcon
+          style={{ height: "16px", width: "16px", color: "white" }}
+        />
+      </header>
       {isOpen && (
         <section
           key={`noAnimation${i}`}
