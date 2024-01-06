@@ -8,7 +8,7 @@ export function HomeWithoutAnimation() {
         <Link to="/accordion">Accordion</Link>
       </li>
       <li>
-        <Link to="/blog">Blog demo</Link>
+        <Link to="/blog">Scroll Based Animation</Link>
       </li>
     </article>
   );

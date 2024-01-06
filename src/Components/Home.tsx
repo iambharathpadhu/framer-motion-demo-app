@@ -28,7 +28,7 @@ export function Home() {
         <Link to="/accordion">Accordion</Link>
       </motion.li>
       <motion.li variants={itemVariants}>
-        <Link to="/blog">Blog demo</Link>
+        <Link to="/blog">Scroll Based Animation</Link>
       </motion.li>
     </motion.article>
   );
